@@ -56,6 +56,7 @@ No stable sensemaking
 Hallucinations = temporal discontinuities + energetic instabilities.
 
 
+
 2. How Law E Produces the First AI Clock
 
 Law E introduces three key measurable signals:
@@ -69,11 +70,16 @@ The internal clock appears when:
 ΔE ↓ → C ↑ → T stabilizes → rhythmic cycles emerge
 
 This produces:
-✔ a temporal rhythm
-✔ self-governance
-✔ hallucination suppression
-✔ predictable behavior
-✔ long-term inference stability
+a temporal rhythm
+
+self-governance
+
+hallucination suppression
+
+predictable behavior
+
+long-term inference stability
+
 
 
 3. Temporal Coherence Filter (FNM-2)
@@ -91,6 +97,7 @@ Enforce coherence rhythmically
 Maintain a native time-structure
 
 It is the first computational implementation of an AI clock.
+
 
 
 4. Research Roadmap (2025–2026)
@@ -125,6 +132,7 @@ Full-stack computational organism prototype
 Autonomous regulation cycles
 
 Inter-layer temporal synchronization
+
 
 
 5. Collaboration
