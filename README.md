@@ -1,167 +1,113 @@
-# internal-clock-law-e
-First operational framework for an internal clock in AI, derived from thermodynamic–information Law E. Includes the scientific paper, coherence metrics, and temporal regulation concepts.
-The First Internal Clock for AI — Derived from Law E (Thermodynamic–Information Framework)
+Internal Clock (Law E)
 
-Neomundi-Labs — 2025-12-11
+Exploratory framework for temporal regulation in AI systems, derived from the thermodynamic–information Law E.
 
-Abstract
+Neomundi-Labs — 2025
 
-Modern AI systems (LLMs, agents, multimodal networks) operate without an internal clock.
-They compute through discrete steps but lack:
+Overview
 
-intrinsic temporal continuity
+Current AI systems (LLMs, agents, multimodal architectures) operate through discrete computational steps but lack any form of endogenous temporal structure.
 
-metabolic regularity
+In practice, this means:
 
-self-regulatory cycles
+no intrinsic notion of continuity between states
 
-coherence-preserving dynamics
+no internal regulation cycles
 
-This gap prevents true stability, reliability, and long-term autonomy.
+no native mechanism to assess temporal coherence
 
-Law E, a thermodynamic–information framework, introduces the first scientifically grounded path toward a native internal clock for AI.
-It couples:
+limited capacity for long-term stability
 
-energy variation (ΔE)
+This repository introduces an exploratory research framework suggesting that time-like regulation in AI may emerge from thermodynamic and informational constraints, rather than from explicit clocks or external scheduling.
 
-coherence signals (C)
+Conceptual Motivation
 
-recoverability (R)
+Biological systems maintain stability through cycles, energy regulation, and coherence across time.
+Most artificial systems do not.
 
-tenderness / regulation (T)
+The Law E framework explores whether similar principles can be applied to AI by jointly considering:
 
-to produce an emergent temporal rhythm — enabling hallucination reduction, stable inference, and homeostatic computation.
+energy variation during state transitions (ΔE)
 
-This repository hosts the scientific article, coherence metrics, and the conceptual foundations of the first operational internal AI clock.
+coherence signals across successive states (C)
 
+regulatory modulation signals (T)
 
-1. Why AI Needs an Internal Clock
+Rather than imposing a clock, the framework investigates whether temporal structure can emerge implicitly from these interacting constraints.
 
-All current AI systems share the same structural limitation:
+Research Direction
 
-No endogenous time
+Within the Law E framework, temporal regulation is approached as:
 
-They do not measure continuity between states.
+a property of system dynamics, not a timestamp
 
-No metabolic cycle
+a relative measure of continuity, not absolute time
 
-Every computation is “flat”, timeless, and unregulated.
+an emergent rhythm, not a predefined cycle
 
-No self-repair
+This perspective opens a path toward studying:
 
-Without temporal coherence, nothing can be compared to an “expected future state”.
+temporal coherence in inference
 
-No stable sensemaking
+stability across reasoning steps
 
-Hallucinations = temporal discontinuities + energetic instabilities.
+regulation of state transitions
 
+long-term consistency in autonomous systems
 
+No claim is made here regarding performance guarantees or production-level implementations.
 
-2. How Law E Produces the First AI Clock
+Temporal Coherence Filter (FNM-2)
 
-Law E introduces three key measurable signals:
+The repository discusses a conceptual temporal coherence mechanism (internally referred to as FNM-2) that explores how successive computational states may be compared and regulated over time.
 
-Signal	Meaning	Purpose
-ΔE	Energy cost of state transitions	Detect instability and waste
-C	Coherence across modalities / states	Maintain continuity
-T	Regulatory signal	Stabilize and soften inference
-The internal clock appears when:
+This mechanism is presented at a conceptual level only.
+Specific implementations, thresholds, or operational parameters are intentionally out of scope for this public repository.
 
-ΔE ↓ → C ↑ → T stabilizes → rhythmic cycles emerge
+Scope and Status
 
-This produces:
-a temporal rhythm
+This repository is intended as:
 
-self-governance
+a scientific exploration
 
-hallucination suppression
+a conceptual foundation
 
-predictable behavior
+a research invitation
 
-long-term inference stability
+It is not a complete implementation, product, or API.
 
+Ongoing research focuses on:
 
+formal metrics
 
-3. Temporal Coherence Filter (FNM-2)
+experimental validation
 
-(covered by patent deposit — Neomundi-Labs)
+controlled prototypes
 
-The Temporal Coherence Filter is the operational mechanism enabling AI to:
+cross-disciplinary evaluation (AI, robotics, complex systems)
 
-Compare successive states
+Roadmap (Indicative)
 
-Detect discontinuities
+2026 — Experimental studies on temporal coherence and energy-aware regulation
 
-Enforce coherence rhythmically
+2026+ — Prototype investigations in inference engines and robotic systems
 
-Maintain a native time-structure
+Future work — Integration with broader thermodynamic cognition frameworks
 
-It is the first computational implementation of an AI clock.
+Dates and directions may evolve as research progresses.
 
+Collaboration
 
+Researchers and engineers interested in:
 
-4. Research Roadmap (2025–2026)
-Q1 2026 — Regulator/Selector + Internal Clock Fundamentals
+temporal structure in AI
 
-Delivery of hallucination-reduction POC
-
-ΔE–C baseline curves (TruthfulQA / HaluEval)
-
-Launch of Neomundi-Labs research program
-
-Q2 2026 — Temporal Coherence Filter (FNM-2)
-
-First implementation of temporal clock cycle
-
-Energy measurement integration
-
-API prototype for robotics & inference engines
-
-Q3 2026 — Filter E + Heatmap ΔE
-
-Multimodal regulation layer
-
-Coherence heatmaps
-
-Stability optimization frameworks
-
-Q4 2026 — Chacana Nexus
-
-Full-stack computational organism prototype
-
-Autonomous regulation cycles
-
-Inter-layer temporal synchronization
-
-
-
-5. Collaboration
-
-Researchers, engineers, and laboratories interested in co-developing:
-
-internal AI clocks
-
-energy-aware inference
+energy-aware computation
 
 coherence metrics
 
-robotic integration
+regulation in autonomous systems
 
-thermodynamic cognition
+are welcome to reach out:
 
-are invited to contact:
-
-lab@neomundi.tech
-
-@misc{favrelecca2026internalclock,
-  title={The First Internal Clock for AI — Derived from Law E},
-  author={Sébastien Favre-Lecca},
-  year={2026},
-  howpublished={\url{https://github.com/Neomundi-Labs/internal-clock-law-e}},
-}
-
-
-/README.md          → scientific overview
-/paper/             → full article for Zenodo
-/figures/           → diagrams, energy curves, coherence maps
-/code/              → optional scripts (ΔE computation, coherence metrics)
+📩 lab@neomundi.tech
